@@ -82,7 +82,7 @@ if(isset($message))
 ?>
 <html>
   <head>
-     <title>Home</title>
+     <title>Home Page For Online Food Order </title>
 	 <!--bootstrap files-->
 	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -210,7 +210,7 @@ ul li a:hover{text-decoration:none;}
       <ul class="navbar-nav ml-auto">
         
 		<li class="nav-item"><!--hotel search-->
-		     <a href="#" class="nav-link"><form method="post"><input type="text" name="search_hotel" id="search_hotel" placeholder="Search Hotels " class="form-control " /></form></a>
+		     <a href="#" class="nav-link"><form method="post"><input type="text" name="search_any_hotel" id="search_hotel" placeholder="Search Hotels " class="form-control " /></form></a>
 		  </li>
           <li class="nav-item">
 		     <a href="#" class="nav-link"><form method="post"><input type="text" name="search_text" id="search_text" placeholder="Search by Food Name " class="form-control " /></form></a>
