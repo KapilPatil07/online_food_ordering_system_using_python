@@ -102,9 +102,9 @@ CREATE TABLE `tblcustomer` (
 --
 
 INSERT INTO `tblcustomer` (`fld_cust_id`, `fld_name`, `fld_email`, `fld_mobile`, `password`) VALUES
-(1, 'gajender', 'customer1@gmail.com', 7503515382, 'customer1'),
-(2, 'sanjay', 'customer2@gmail.com', 7503515386, 'customer2'),
-(3, 'saana', 'customer3@gmail.com', 7503515383, 'customer3');
+(1, 'kapil', 'kapil1@gmail.com', 7503515382, 'customer1'),
+(2, 'akhil', 'akhil2@gmail.com', 7503515386, 'customer2'),
+(3, 'pushkar', 'pushkar3@gmail.com', 7503515383, 'customer3');
 
 -- --------------------------------------------------------
 
@@ -149,8 +149,8 @@ CREATE TABLE `tblorder` (
 --
 
 INSERT INTO `tblorder` (`fld_order_id`, `fld_cart_id`, `fldvendor_id`, `fld_food_id`, `fld_email_id`, `fld_payment`, `fldstatus`) VALUES
-(1, 1, 21, 1, 'customer3@gmail.com', '50', 'Delivered'),
-(2, 2, 22, 3, 'customer3@gmail.com', '20', 'Out Of Stock');
+(1, 1, 21, 1, 'pushkar3@gmail.com', '50', 'Delivered'),
+(2, 2, 22, 3, 'pushkar3@gmail.com', '20', 'Out Of Stock');
 
 -- --------------------------------------------------------
 
